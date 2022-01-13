@@ -19,6 +19,9 @@ public class Applemain {
             }
         });
 
+        //람다 표현식으로 구현한 필터링
+        List<Apple> redapple = filterapp(inventory, (Apple apple) -> "RED".equals(apple.getColor()));
+
 
     }
 
