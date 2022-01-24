@@ -32,7 +32,7 @@ public class Applemain {
                 return o1.getWeight() - o2.getWeight();
             }
         });
-
+ 
         //람다를 이용
         inventory.sort((Apple a1, Apple a2) -> a1.getWeight() - a2.getWeight());
 
